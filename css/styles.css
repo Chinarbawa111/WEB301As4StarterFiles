@@ -2,15 +2,25 @@ html, body{
     margin: 0;
     padding: 0;
 }
-#error{
+::placeholder{
+    color: white;
+}
+#Error{
     color: red;
-    background-color: burlywood;
+   
 }
 
-#success{
+#Success{
     color: green;
-    background-color: darkgray;
 }
-#label{
-    display: none;
+
+
+@media screen and (max-width:700px) {
+    label{
+        display:none;
+    }
+    ::placeholder{
+        color: black;
+    }
+    
 }
