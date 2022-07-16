@@ -11,4 +11,6 @@ html, body{
     color: green;
     background-color: darkgray;
 }
-
+#label{
+    display: none;
+}

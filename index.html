@@ -16,11 +16,11 @@
 
     <div class="row">
     <label for="name">First Name</label>
-    <input name="First Name" id="name" type="text" placeholder="first name" required/>
+    <input name="First Name" id="firstName" type="text" placeholder="First name" required/>
   </div>
   <div class="row">
     <label for="name">Last Name</label>
-    <input name="Last Name" id="name" type="text" placeholder="last name" required/>
+    <input name="Last Name" id="lastName" type="text" placeholder="Last name" required/>
   </div>
   <div class="row">
     <label for="Latitude">Latitude</label>
@@ -28,11 +28,11 @@
   </div>
   <div class="row">
     <label for="Longitude">Longitude</label>
-    <input name="Longitude" id="longitude" type="text" placeholder="longitude" >
+    <input name="Longitude" id="longitude" type="text" placeholder="Longitude" >
   </div>
 
-  <button onClick="getLocation()">Get geo location</button>
-  <button >SUBMIT INFO</button>
+  <button id="location">Get Geo Location</button>
+  <button id="submit">SUBMIT INFO</button>
   <div id="Error"></div>
   <div id="Success"></div>
 </div>
